@@ -4,8 +4,10 @@ function logDriverNames(drivers) {
   });
 }
 
-function logDriversByHometown(drivers) {
+function logDriversByHometown(drivers, hometown) {
   drivers.forEach(function (elem) {
-    console.log(elem.hometown);
+    if (hometown ==== elem.hometown) {
+      console.log(elem.hometown);
+    };
   });
 }
