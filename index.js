@@ -14,10 +14,6 @@ function logDriversByHometown(drivers, hometown) {
 function driversByRevenue(drivers) {
   const driversCopy = [...drivers];
   return driversCopy.sort(function (elem1, elem2){
-    return elem1.revenue - elem2.revenue
+    return elem1.revenue - elem2.revenue;
   });
-}
-
-function driversByName(drivers) {
-  
 }
