@@ -31,5 +31,8 @@ function totalRevenue(drivers) {
   };
 
   return drivers.reduce(getRevenue,0)
+}
 
+function averageRevenue() {
+  
 }
