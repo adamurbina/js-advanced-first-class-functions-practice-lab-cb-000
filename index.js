@@ -9,5 +9,5 @@ function logDriversByHometown(drivers, hometown) {
     if (hometown ==== elem.hometown) {
       console.log(elem.hometown);
     };
-  });
+  };
 }
