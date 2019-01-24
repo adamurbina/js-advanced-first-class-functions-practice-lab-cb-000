@@ -34,6 +34,6 @@ function totalRevenue(drivers) {
 }
 
 function averageRevenue(drivers) {
-  const totalRevenue = totalRevenue(drivers);
-  return totalRevenue / drivers.size;
+  const allRevenue = totalRevenue(drivers);
+  return allRevenue / drivers.size;
 }
