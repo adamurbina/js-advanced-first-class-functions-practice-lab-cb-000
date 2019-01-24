@@ -30,6 +30,6 @@ function totalRevenue(drivers) {
     return accumulator + currValue.revenue;
   };
 
-  return drivers.reduce(getRevenue)
+  return drivers.reduce(getRevenue,0)
 
 }
