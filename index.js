@@ -17,3 +17,8 @@ function driversByRevenue(drivers) {
     return elem1.revenue - elem2.revenue;
   });
 }
+
+function driversByName(drivers) {
+  const driversCopy = [...drivers];
+  
+}
