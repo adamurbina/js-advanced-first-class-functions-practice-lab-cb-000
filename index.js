@@ -3,12 +3,3 @@ function logDriverNames(drivers) {
     console.log(elem.name);
   });
 }
-
-function logDriversByHometown(drivers, hometown) {
-  drivers.forEach( function (elem) {
-    if (elem.hometown === hometown) {
-      console.log(elem.name);
-    }
-  };
-  );
-}
