@@ -12,7 +12,7 @@ function logDriversByHometown(drivers, hometown) {
 }
 
 function driversByRevenue(drivers) {
-  newDrivers = drivers.copy();
+  newDrivers = drivers.silce(0);
   return newDrivers.sort(function (elem1, elem2){
     return elem1.revenue - elem2.revenue
   });
