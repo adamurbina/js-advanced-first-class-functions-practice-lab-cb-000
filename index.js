@@ -10,3 +10,7 @@ function logDriversByHometown(drivers, hometown) {
     console.log(elem.name);}
   });
 }
+
+function driversByRevenue(drivers) {
+
+}
