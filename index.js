@@ -24,3 +24,12 @@ function driversByName(drivers) {
     return a.name.localeCompare(b.name);
   });
 }
+
+function totalRevenue(drivers) {
+  const getRevenue = function (accumulator, currValue) {
+    return accumulator + currValue.revenue;
+  };
+
+  return drivers.reduce(getRevenue)
+
+}
