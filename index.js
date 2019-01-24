@@ -10,6 +10,5 @@ function logDriversByHometown(drivers, hometown) {
       console.log(elem.name);
     }
   };
-
   );
 }
